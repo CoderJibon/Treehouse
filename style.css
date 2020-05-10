@@ -1,0 +1,377 @@
+/*
+Theme name: Coder Jibon
+Theme URL: https://www.coderjibon.com
+Author name: Jibon roy
+Author URl: https://www.coderjibon.com
+Description: Hi, My name is Jibon. I am a professional Wordpress developer. I love to work with WordPress. I have been completed more than 100 projects on Wordpress Themes Customization. I have worked with various technologies including , HTML5,  CSS3,  PSD to HTML,  Bootstrap,  JavaScript,  JQuery,  PSD to Bootstrap,  PHP,  WordPress, wp-theme , plugin, woocommerce , ecommerce, woocommerce develoment, theme develoment , plugin develoment , wordpress developer . 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: coder
+Tags: WordPress Install, Premium Theme, Responsive design, (Desktop, Tablet &Smartphone compatible), Import Demo data/content, Fast loading pages, Ecommerce, Functionality., All the plugins you will need, Speed up your, WordPress website, Bug Fixes, Social share buttons, Backup, Cloning & Migration, User-friendly admin panel, Re-design your existing site, High-Quality, Slider, SEO friendly structure, Fully secure website, Content from, blog integration, Google map, Social media integration, Clear navigation across the site, Live Chat option
+
+*/
+
+/* 
+	font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+
+*/
+
+body {
+	background-color: gray;
+
+}
+
+.header {
+	background-color: #fff;
+	padding: 30px 0px;
+}
+
+.header:after {
+	content:'';
+	display: block; 
+	clear: both;
+}
+
+.mid {
+	width: 80%;
+	margin: auto;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+}
+
+.menu-area {
+	width: 70%;
+	float: left;
+}
+
+.menu-area ul {
+	text-align: right;
+}
+.menu-area ul li {
+	display: inline-block;
+}
+
+
+.menu-area ul li a {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #777777;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 10px 20px;
+	display: block;
+}
+
+.banner {
+	background-image: url(images/banner.jpg);
+	background-position: center center;
+	overflow: hidden;
+	height: 500px;
+	text-align: center;
+}
+
+.blar {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .7);
+	overflow: hidden;
+}
+
+.banner h1 {
+	font-size: 60px;
+	width: 50%;
+	margin: auto; 
+	color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 100px;
+}
+.banner   p{
+	color: #ccc;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 20px;
+	margin: 40px 0px;
+
+}
+
+.banner  a{
+	background-color: #7cc576;
+	padding: 20px 50px;
+	display: inline-block;
+	color: #FFF;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	border-radius: 30px;
+	text-shadow: 0px 0px 2px #333;
+}
+
+.service {
+	background-color: #fff;
+	padding: 100px 0px;
+}
+
+.service h2 {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #222;
+
+}
+
+.service p {
+	text-align: center;
+	font-size: 20px;
+	color: #777;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	margin-top: 15px;
+}
+
+.service-area {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.service-box {
+	width: 30%;
+	display: inline-block;
+}
+
+.service-box h3 {
+	text-align: center; 
+	text-transform: uppercase; 
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	color: #222;
+	margin: 10px 0px;
+
+}
+
+.service-box  p{
+	margin-top: 0px;
+	font-size: 14px;
+	color: #777;
+	width: 90%;
+	margin: auto;
+	line-height: 22px;
+}
+
+.relax {
+
+}
+.relax:after {
+	content:'';
+	display: block; 
+	clear: both;
+}
+
+.relax-left {
+	width: 35%;
+	float: left; 
+	height: 550px;
+	background-color: #e9e9e9;
+	position: relative;
+	overflow: hidden;
+}
+
+.relax-left img {
+	position: absolute; 
+	top: 0px;
+	bottom: 0px;
+	right: -195px;
+	margin: auto;
+}
+
+.relax-right {
+	width: 65%;
+	float: left; 
+	height: 550px;
+	background-image: url('images/relax.jpg');
+}
+
+.blr2 {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .7);
+	padding-left: 100px;
+	padding-top: 100px;
+	box-sizing: border-box;
+}
+
+.relax-right h2 {
+	color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	text-transform: uppercase;
+
+}
+
+.relax-right h2 span {
+	color: #7cc576;
+
+}
+.relax-right h2 span:after {
+	content:'';
+	display: block;
+}
+
+.relax-right p{
+	color: #ccc;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin: 20px 0px;
+}
+
+.relax-right ul {
+	color: #ccc;
+	margin: 20px 0px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+}
+
+.relax-right ul li {
+	margin: 10px 0px;
+}
+
+.relax-right ul li i {
+	font-size: 16px;
+	height: 16px;
+	width: 16px;
+	border: 1px solid #ccc;
+	text-align: center;
+	border-radius: 50%;
+	padding: 6px;
+	vertical-align: middle;
+	margin-right: 20px;
+	font-weight: normal;
+
+}
+
+.relax-right a {
+	background-color: #7cc576;
+	padding: 20px 30px;
+	display: inline-block;
+	color: #FFF;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	border-radius: 30px;
+	text-shadow: 0px 0px 2px #333;
+}
+
+.project {
+	background-color: #fff;
+	padding: 100px 0px;
+	background-image: url('images/ipad.png');
+	background-repeat: no-repeat; 
+	background-position: bottom right;
+}
+
+.project h2 {
+	text-align: center; 
+	color: #222;
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+
+}
+
+.project p {
+	text-align: center; 
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	color: #777;
+	font-size: 16px;
+
+}
+
+.project-content {
+	margin-top: 60px;
+	width: 50%;
+
+}
+
+.project-list {
+	margin: 40px 0px;
+}
+
+.project-content h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase; 
+	font-size: 18px;
+	color: #222;
+	margin-bottom: 20px;
+}
+
+.project-content p{
+	text-align: left;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.list-box:after {
+	content:'';
+	display: block; 
+	clear: both;
+}
+.list-box {
+	margin-bottom: 10px;
+}
+
+.list-box .iocn {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #222;
+	position: relative;
+	border-radius: 50%;
+	float: left;
+
+}
+
+.list-box .iocn img {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.list-box .detail {
+	width: 80%;
+	float: left;
+	margin-left: 10px;
+}
+
+.list-box .detail h4 {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	margin-top: 23px;
+}
+
+.project-content a{
+	color: #7cc576;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	margin-top: 10px;
+	display: inline-block;
+}
+
